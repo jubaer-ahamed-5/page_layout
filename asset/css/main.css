@@ -1,0 +1,455 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'IPT Serif', serif;
+}
+
+header{
+    float: left;
+    width: 100%;
+}
+.container{
+    margin: 0px auto;
+    width: 1140px;
+}
+.logo-section{
+    width: 20%;
+    float: left;
+    height: 150px;
+}
+.logo-section img{
+    width: 205px;
+    
+}
+.menu-section{
+    width: 50%;
+    float: left;
+    height: 150px;
+   
+}
+
+nav ul{
+    list-style-type: none;
+    text-align: center;
+}
+nav ul li{
+    display: inline-block;
+    margin: 60px 10px;
+}
+nav ul li a{
+    font-weight: bold;
+    color: green;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding: 15px;
+}
+nav ul li a:hover{
+    background-color: darkgreen;
+    color: whitesmoke;
+}
+.social-icon{
+  
+    width: 30%;
+    float: left;
+    height: 150px;
+}
+.social-icon ul{
+    list-style-type: none;
+}
+.social-icon ul li{
+    display: inline-block;
+    margin: 60px 5px;
+    font-size: 25px;
+    float: left;
+}
+.social-icon ul li a{
+    padding: 5px;
+}
+.social-icon a:hover{
+    background-color: none;
+}
+.fa.fa-facebook{
+    background-color: royalblue;
+    color: #fff;
+    padding: 3px 7px;
+}
+.fa.fa-twitter{
+    background-color: deepskyblue;
+    color: white;
+    padding: 3px;
+}
+.fa.fa-linkedin{
+    background-color: #0073b0;
+    color: #fff;
+    padding: 3px;
+}
+.fa.fa-google-plus{
+    background-color: red;
+    color: #fff;
+    padding: 3px;
+}
+.sign_in {
+    margin: 60px 5px;
+    font-size: 20px;
+    padding: 5px;
+    float: left;
+}
+.sign_in a{
+    text-decoration: none;
+    color: blue;
+    font-size: 26px;
+}
+.sign_in a:hover{
+    color: deepskyblue;
+}
+.banner{
+    width: 100%;
+    float: left;
+    background-image: url(../img/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    height: 900px;
+    
+}
+.banner-outter{
+    margin-left: 20px;
+    width: 49%;
+    background: rgba(105 134 150 / 80%);
+}
+.banner-inner{
+    margin: 25% 5%;
+    padding: 23% 5%;
+    text-align: center;
+    
+}
+.banner-inner h1{
+    text-transform: uppercase;
+    font-size: 50px;
+}
+.banner-inner p{
+    font-size: 20px;
+}
+.banner-inner a{
+    background-color: forestgreen;
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    margin: 25px 15px;
+    font-style: bold;
+    font-size: 17px;
+    padding: 10px;
+    text-transform: uppercase;
+}
+.banner-inner a:hover{
+    background-color: darkgreen;
+    color: whitesmoke;
+}
+.option{
+    float: left;
+    width: 100%;
+}
+.option-one{
+    float: left;
+    width: 25%;
+    margin: 2px auto;
+    padding: 5px 0px;
+    text-align: center;
+}
+.option-one i{
+    padding: 10px;
+    display: block;
+    margin: 20px 90px;
+    font-size: 80px;
+    color: white;
+    border-radius: 50%;
+}
+.option-one h1{
+    margin: 10px 5px;
+}
+.option-one p{
+    margin: 20px 7px;
+    font-size: 18px;
+}
+.option-one a{
+    text-decoration: none;
+    background-color: forestgreen;
+    color: #fff;
+    padding: 8px 10px;
+    font-size: 18px;
+}
+.option-two{
+    float: left;
+
+    width: 25%;
+
+    margin: 2px auto;
+    padding: 5px 0px;
+    text-align: center;
+}
+.option-two i{
+    padding: 10px;
+    display: block;
+    margin: 20px 90px;
+    font-size: 80px;
+    color: white;
+    border-radius: 50%;
+}
+.option-two h1{
+    margin: 10px 5px;
+}
+.option-two p{
+    margin: 20px 7px;
+    font-size: 18px;
+}
+.option-two a{
+    text-decoration: none;
+    background-color: forestgreen;
+    color: #fff;
+    padding: 8px 10px;
+    font-size: 18px;
+}
+.option-three{
+    float: left;
+    width: 25%;
+    margin: 2px auto;
+    padding: 5px 0px;
+    text-align: center;
+}
+.option-three i{
+    padding: 10px;
+    display: block;
+    margin: 20px 90px;
+    font-size: 80px;
+    color: white;
+    border-radius: 50%;
+}
+.option-three h1{
+    margin: 10px 5px;
+}
+.option-three p{
+    margin: 20px 7px;
+    font-size: 18px;
+}
+.option-three a{
+    text-decoration: none;
+    background-color: forestgreen;
+    color: #fff;
+    padding: 8px 10px;
+    font-size: 18px;
+}
+.option-four{
+    float: left;
+    width: 25%;
+    margin: 2px auto;
+    padding: 5px 0px;
+    text-align: center;
+}
+.option-four i{
+    padding: 10px;
+    display: block;
+    margin: 20px 90px;
+    font-size: 80px;
+    color: white;
+    border-radius: 50%;
+}
+.option-four h1{
+    margin: 10px 5px;
+}
+.option-four p{
+    margin: 20px 7px;
+    font-size: 18px;
+}
+.option-four a{
+    text-decoration: none;
+    background-color: forestgreen;
+    color: #fff;
+    padding: 8px 10px;
+    font-size: 18px;
+}
+.option-one a:hover{
+    background-color: darkgreen;
+    color: whitesmoke;
+}
+.option-two a:hover{
+    background-color: darkgreen;
+    color: whitesmoke;
+}
+.option-three a:hover{
+    background-color: darkgreen;
+    color: whitesmoke;
+}
+.option-four a:hover{
+    background-color: darkgreen;
+    color: whitesmoke;
+}
+.fa.fa-check{
+    background-color: green;
+}
+.fa.fa-map-marker{
+    background-color: teal;
+}
+.fa.fa-money{
+    background-color: lightgreen;
+}
+.fa.fa-user-plus{
+    background-color: lawngreen;
+}
+
+.left{
+    margin: 20px 28.5px;
+    float: left;
+    padding: 40px 0px;
+    background-color: skyblue;
+    width: 45%;
+}
+.left h1{
+    font-size: 40px;
+    text-align: center;
+}
+.left i{
+    display: block;
+    text-align: left;
+    margin: 18px 70px;
+    font-size: 22px
+}
+.left a{
+    text-decoration: none;
+    background-color: forestgreen;
+    padding: 8px 5px;
+    margin-left: 75px;
+    color: #fff;
+}
+.right{
+    margin: 20px 28.5px;
+    float: left;
+    padding: 40px 0px;
+    background-color: skyblue;
+    width: 45%;
+}
+.right h1{
+    font-size: 40px;
+    text-align: center;
+}
+.right i{
+    display: block;
+    text-align: left;
+    margin: 18px 70px;
+    font-size: 22px
+}
+.right a{
+    text-decoration: none;
+    background-color: forestgreen;
+    padding: 8px 5px;
+    margin-left: 75px;
+    color: #fff;
+}
+.right a:hover{
+    background-color: darkgreen;
+    color: whitesmoke;
+}
+.left a:hover{
+    background-color: darkgreen;
+    color: whitesmoke;
+}
+.blog{
+    display: block;
+    float: left;
+}
+.blog h1{
+    text-align: center;
+    font-size: 36px;
+}
+.blog-one{
+    margin: 20px 28.5px;
+    width: 45%;
+    float: left;
+}
+.blog-one p{
+    margin: 15px 10px;
+}
+.blog-one a{
+    text-decoration: none;
+    background-color: forestgreen;
+    margin-left: 10px;
+    padding: 8px 5px;
+    color:#fff;
+}
+.blog-one a:hover{
+    background-color: darkgreen;
+    color: whitesmoke;
+}
+.messege{
+    
+    padding: 80px 0px 10px 0px;
+    width: 100%;
+    height: 200px;
+    background-color: gray;
+    text-align: center;
+}
+.messege li{
+    list-style-type: none;
+}
+.messege i{
+    margin-right: 5px;
+}
+.star{
+    padding: 50px;
+    margin: 20px;
+    text-align: center;
+}
+.star li{
+    list-style-type: none;
+}
+.fa.fa-star{
+    color: green;
+    margin-right: 5px;
+    font-size: 20px;
+}
+.fa.fa-star-o{
+    background-color: forestgreen;
+    color: #fff;
+}
+.star li i fa.fa-star-o{
+    background-color: red;
+}
+.logos{
+    float: left;
+}
+.full-width{
+    width: 100%;
+    background-color: darkgray;
+}
+.logos h1{
+    padding-top: 15px;
+    text-align: center;
+   
+}
+.l-one{
+    
+    padding: 0px;
+    width: 20%;
+    float: left;
+}
+.footer{
+    width: 50%;
+    float: left;
+    text-align: center;
+    margin: 0px 0px;
+    padding: 35px 0px;
+    color: #fff;
+}
+.footer li{
+    list-style-type: none;
+}
+.full-width{
+    background-color: darkgray;
+}
+.full-width-1{
+    background-color: midnightblue;
+}
